@@ -1,0 +1,94 @@
+<!--
+Autor: Jorge Marcelo
+Data de Criação: 09/08/2023
+Github: https://github.com/Jorge-Marcelo
+Linkedin: https://www.linkedin.com/in/jorge-marcelo-067a5017b/
+Instagram: https://www.instagram.com/10_stronger/
+Threads: https://www.threads.net/@10_stronger
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Page Title</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+</head>
+<body>
+
+<main>
+
+<!--Formuario-->
+<form>
+<h1>Conversor de Unidades de Medida</h1>
+<!--Inputs e label-->
+<label for="valorEntrada">Valor:</label>
+<input type="text" id="valorEntrada" required>
+<label for="unidadeEntrada">De:</label>
+
+<!--Select com opções-->
+<select id="unidadeEntrada" required>
+<option value="quilometro">Quilometro</option>
+<option value="hectometro">Hectometro</option>
+<option value="decametro">Decametro</option>
+<option value="metro">Metro</option>
+<option value="decimetro">Decímetro</option>
+<option value="centimetro">Centímetro</option>
+<option value="milimetro">Milímetro</option>
+</select>
+    
+<!--Select com opções-->
+<label for="unidadeSaida">Para:</label>
+<select id="unidadeSaida" required>
+<option value="quilometro">Quilometro</option>
+<option value="hectometro">Hectometro</option>
+<option value="decametro">Decametro</option>
+<option value="metro">Metro</option>
+<option value="decimetro">Decímetro</option>
+<option value="centimetro">Centímetro</option>
+<option value="milimetro">Milímetro</option>
+</select>
+
+<!--Botão de converter-->
+<button type="button" id="buttonConverter" class="buttonConverter">Converter</button>
+<p id="resultado"></p>
+
+<!--Rodape com redes sociais-->
+<footer>
+<table>
+<tr>
+<td><button class="github" id="github">
+<img src="assets/img/github.png" class="igm-github"> 
+<span>Github</span></button></td>
+
+<td><button class="linkedin" id="linkedin">
+<img src="assets/img/linkedin.png" class="igm-linkedin">
+<span>Linkedin</span></button></td>
+
+
+<td><button class="instagram" id="instagram">
+<img src="assets/img/insta.png">
+<span>Instagram</span></button></td>
+
+
+<td><button class="github" id="threads">
+<img src="assets/img/threads.png" class="igm-threads">
+<span>Threads</span></button></td>
+</tr>
+</table>
+</footer>
+
+<!--Imagem com animações-->
+<picture>
+<img src="assets/anim/sharingan.png">
+</picture>
+</form>
+</main>
+    
+
+
+<script src='assets/js/script.js'></script>
+</body>
+</html>
